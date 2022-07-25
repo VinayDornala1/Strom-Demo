@@ -65,7 +65,7 @@
             android:textColor="@color/black"
             app:layout_constraintTop_toBottomOf="@+id/text1" />
         <LinearLayout
-            android:id="@+id/layout"
+            android:id="@+id/search"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginLeft="19dp"
@@ -91,9 +91,8 @@
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_centerInParent="true"
-            app:layout_constraintTop_toBottomOf="@+id/layout"
+            app:layout_constraintTop_toBottomOf="@+id/search"
             app:sliderAnimationDuration="600"
-            app:sliderAutoCycleDirection="back_and_forth"
             app:sliderIndicatorAnimationDuration="600"
             app:sliderIndicatorEnabled="true"
             app:sliderIndicatorGravity="center_horizontal|bottom"
@@ -243,7 +242,7 @@
                 android:textSize="13dp" />
         </LinearLayout>
         <LinearLayout
-            android:id="@+id/click1"
+            android:id="@+id/application"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="35dp"
@@ -263,7 +262,7 @@
                 android:textSize="13dp" />
         </LinearLayout>
         <LinearLayout
-            android:id="@+id/click2"
+            android:id="@+id/counselling"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="35dp"
@@ -284,7 +283,7 @@
                 android:textSize="13dp" />
         </LinearLayout>
         <LinearLayout
-            android:id="@+id/click3"
+            android:id="@+id/alumni"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="35dp"
@@ -303,7 +302,7 @@
                 android:textSize="13dp" />
         </LinearLayout>
         <LinearLayout
-            android:id="@+id/click4"
+            android:id="@+id/training"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="35dp"
@@ -343,7 +342,7 @@
                 android:textSize="13dp" />
         </LinearLayout>
         <LinearLayout
-            android:id="@+id/click6"
+            android:id="@+id/share"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="35dp"

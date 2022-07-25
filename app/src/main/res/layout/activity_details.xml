@@ -17,6 +17,7 @@
         android:id="@+id/image"
         android:layout_width="match_parent"
         android:layout_height="280dp"
+        android:scaleType="fitXY"
         android:src="@mipmap/ic_launcher"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"

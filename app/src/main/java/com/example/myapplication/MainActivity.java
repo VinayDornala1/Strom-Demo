@@ -82,49 +82,19 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 return true;
             case R.id.search:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment,fourFragment).commit();
-//            case R.id.home:
-//                Toast.makeText(MainActivity.this, "Home is Selected", Toast.LENGTH_SHORT).show();
-//                return true;
-//            case R.id.category:
-//                Toast.makeText(MainActivity.this, "Category is Selected", Toast.LENGTH_SHORT).show();
-//                return true;
-//            case R.id.cart:
-//                Toast.makeText(MainActivity.this, "Cart is Selected", Toast.LENGTH_SHORT).show();
-//                return true;
-//            case R.id.history:
-//                Toast.makeText(MainActivity.this, "History is Selected", Toast.LENGTH_SHORT).show();
-//                return true;
-//            case R.id.profile:
-//                Toast.makeText(MainActivity.this, "Profile is Selected", Toast.LENGTH_SHORT).show();
-//                return true;
-//            case R.id.rate:
-//                try {
-//                    startActivity(new Intent(Intent.ACTION_VIEW,
-//                            Uri.parse("market://details?id=" + "com.android.chrome")));
-//                } catch (ActivityNotFoundException e) {
-//                    startActivity(new Intent(Intent.ACTION_VIEW,
-//                            Uri.parse("http://play.google.com/store/apps/details?id=" + getPackageName())));
-//                }
-//                Toast.makeText(MainActivity.this, "Rate is Selected", Toast.LENGTH_SHORT).show();
-//                return true;
-//            case R.id.share:
-//                Intent intent = new Intent();
-//                intent.setAction(Intent.ACTION_SEND);
-//                intent.putExtra(Intent.EXTRA_TEXT, "Hello Developers");
-//                intent.setType("text/plain");
-//                if (intent.resolveActivity(getPackageManager()) != null) {
-//                    startActivity(intent);
-//                }
-//                Toast.makeText(MainActivity.this, "Share is Selected", Toast.LENGTH_SHORT).show();
-//                return true;
-//            case R.id.policy:
-//                intent = new Intent(Intent.ACTION_VIEW);
-//                intent.setData(Uri.parse("http://www.tutlane.com"));
-//                startActivity(intent);
-//                Toast.makeText(MainActivity.this, "Policy is Selected", Toast.LENGTH_SHORT).show();
-//                return true;
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    public void ClickItemSelected(){
+        bottomNavigationView.setSelectedItemId(R.id.settings);
+    }
+    public void ClickItem(){
+        bottomNavigationView.setSelectedItemId(R.id.person);
+    }
+    public void ClickSelected(){
+        bottomNavigationView.setSelectedItemId(R.id.search);
     }
 }

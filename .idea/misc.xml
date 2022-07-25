@@ -3,9 +3,36 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MyApplication/app/src/main/res/drawable/border_dashed.xml" value="0.1305" />
+        <entry key="..\:/MyApplication/app/src/main/res/drawable/counsling_foreground.xml" value="0.1305" />
+        <entry key="..\:/MyApplication/app/src/main/res/drawable/radiu.xml" value="0.1305" />
+        <entry key="..\:/MyApplication/app/src/main/res/drawable/radius.xml" value="0.1305" />
+        <entry key="..\:/MyApplication/app/src/main/res/drawable/radiuss.xml" value="0.1305" />
+        <entry key="..\:/MyApplication/app/src/main/res/drawable/star_foreground.xml" value="0.1305" />
+        <entry key="..\:/MyApplication/app/src/main/res/drawable/tabselect.xml" value="0.1305" />
+        <entry key="..\:/MyApplication/app/src/main/res/drawable/video_foreground.xml" value="0.1305" />
+        <entry key="..\:/MyApplication/app/src/main/res/drawable/view.xml" value="0.1305" />
+        <entry key="..\:/MyApplication/app/src/main/res/drawable/views.xml" value="0.1305" />
+        <entry key="..\:/MyApplication/app/src/main/res/drawable/viwe.xml" value="0.1305" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/activity_list.xml" value="0.19641025641025642" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/activity_lists.xml" value="0.19947916666666668" />
         <entry key="..\:/MyApplication/app/src/main/res/layout/activity_otp_page.xml" value="0.17777777777777778" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/activity_registration_page.xml" value="0.19947916666666668" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/activity_video_counselling.xml" value="0.19947916666666668" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/alumin.xml" value="0.19947916666666668" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/fragment_first.xml" value="0.17777777777777778" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/fragment_four.xml" value="0.19641025641025642" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/fragment_location.xml" value="0.19947916666666668" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/fragment_login.xml" value="0.19947916666666668" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/fragment_product.xml" value="0.19947916666666668" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/fragment_second.xml" value="0.19947916666666668" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/fragment_third.xml" value="0.1" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/popularuniversity.xml" value="0.19947916666666668" />
         <entry key="..\:/MyApplication/app/src/main/res/layout/recycler.xml" value="0.17777777777777778" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/rv_one.xml" value="0.19947916666666668" />
         <entry key="..\:/MyApplication/app/src/main/res/layout/rv_three.xml" value="0.17777777777777778" />
+        <entry key="..\:/MyApplication/app/src/main/res/layout/studyarea.xml" value="0.19947916666666668" />
+        <entry key="..\:/MyApplication/app/src/main/res/menu/bottom.xml" value="0.19947916666666668" />
       </map>
     </option>
   </component>
